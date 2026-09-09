@@ -25,7 +25,4 @@ directional background similarity tests;
 1,000 randomizations for equivalency and similarity tests.
 The humboldt package is intentionally omitted from this repository version, as requested.
 
-Suggested directory structure
-text repository/ ├── scripts/ │ ├── 01_select_variables_spearman_vif.R │ └── 02_niche_overlap_equivalency_similarity.R ├── data/ │ ├── occurrences/ │ ├── climate/ │ │ └── present/ │ └── calibration_areas/ └── results/
-
 All paths in the scripts are relative to the repository root. Alternatively, define the environment variable NICHE_PROJECT_ROOT with the absolute path to the repository before running the scripts.
